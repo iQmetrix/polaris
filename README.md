@@ -2,6 +2,8 @@
 
 [![CircleCI](https://circleci.com/gh/Shopify/polaris.svg?style=svg)](https://circleci.com/gh/Shopify/polaris)
 
+> This is the iQmetrix fork of [Polaris](https://github.com/Shopify/polaris). It is intended to be an open expansion on Polaris with customization options otherwise unavailable.
+
 #### Polaris is a React component library designed to help developers create the best experience for merchants who use Shopify. Visit the [Polaris style guide](https://polaris.shopify.com) to learn more.
 
 ## Using the React components
