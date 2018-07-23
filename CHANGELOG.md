@@ -6,6 +6,82 @@ The format is based on [these versioning and changelog guidelines][changelog-gui
 
 <!-- ## Unreleased -->
 
+## 2.5.0 - 2018-07-20
+
+### Enhancements
+
+- Added `weekStartsOn` prop to Datepicker
+
+### Bug fixes
+
+- Remove stickyManager from app provider props interface
+
+## Documentation
+
+- Added iOS and Android examples for the card component
+
+### Development workflow
+
+- Renamed `yarn start:vrt` to `yarn tophat` and updated the folder name to match
+- Improved `yarn tophat`’s design, and added a `/all-components` route
+
+## 2.4.0 - 2018-07-12
+
+### Enhancements
+
+- Changed Form to submit a form by default when the Enter key is pressed, and added the prop `implicitSubmit` to disable this default
+
+### Bug fixes
+
+- Fixed text field padding when a prefix or suffix is included
+
+## 2.3.1 - 2018-07-05
+
+### Enhancements
+
+- Removed the min-width of 320px from Resource list
+
+### Bug fixes
+
+- Resolve issue with RangeSlider not accepting `0` as a `max` value
+- Slightly reduce RangeSlider's `prefix/suffix` spacing
+- Fixed spacing for prefix and suffix on the text field component
+- Fixed a bug which caused data tables not rendered on first page load to have skewed cell heights (thanks [@flewid](https://github.com/flewid) for the [original issue](https://github.com/Shopify/polaris/issues/344))
+- Fixed DatePicker month styling for previous years
+
+## 2.3.0 - 2018-07-03
+
+### New components
+
+#### [Option list](https://polaris.shopify.com/components/lists-and-tables/option-list)
+
+Use Option list to present a group of selectable items outside of the context of a form.
+
+### Documentation
+
+- Fixed `Form` examples
+
+### Enhancements
+
+- Added `prefix` and `suffix` props to `RangeSlider` for better layout control
+- Added testing documentation and examples in AppProvider
+- Performance: optimized avatar SVG files
+- Updated `yarn run optimize` to add new line at the end of SVG files
+
+### Bug fixes
+
+- Adjusted padding on text field to work with Chrome’s autofill
+- Fixed a regression where the version of Polaris wasn’t globally available anymore
+- Updated the interaction state visuals for ActionList
+- Fixed z-index on resource list header with sorting options (thanks [@janklimo](https://github.com/janklimo) for the [original issue](https://github.com/Shopify/polaris/issues/355))
+- Fixed an issue where Radio Buttons were not focusable in Safari
+- Fixed spacing for annotated section descriptions
+- Fixed a bug in EASDK action transforms that prevented external urls in embedded apps from opening (thanks [@dansundy](https://github.com/dansundy) for the [original issue](https://github.com/Shopify/polaris/issues/203))
+
+### Dependency updates
+
+- Updated [`@shopify/polaris-tokens`](https://npmjs.com/package/@shopify/polaris-tokens), the single source of truth for colors
+
 ## 2.2.0 - 2018-06-12
 
 ### New components
@@ -647,7 +723,7 @@ Various documentation fixes.
 - Aria attributes are now on the actionable elements of `Tabs` instead of in the list items
 - Exposed `Panel` as `Tabs.Panel` instead of `Tabs.panel`
 - Fixed the alignment of `prefix` and `suffix` content of `TextField` (thanks [bdillon3](https://github.com/bdillon3) for the [original issue](https://github.com/Shopify/polaris/issues/60))
-- Fixed the disabled text colour in `TextField`
+- Fixed the disabled text color in `TextField`
 - `Checkbox`s and `RadioButton`s no longer generate invalid HTML in their labels (thanks [Ernesto](https://github.com/ernestogutierrez) for the [original issue](https://github.com/Shopify/polaris/issues/88))
 - `Tabs` no longer steals focus from contained elements (thanks [Alex](https://github.com/alexdover) for the [original issue](https://github.com/Shopify/polaris/issues/74))
 

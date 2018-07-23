@@ -36,7 +36,7 @@ Caption text size is smaller than the recommended size for general reading. It s
 
 ### Captions
 
-Captions are primarily used in [data visualizations](/visuals/data-visualizations). Stick to a few words and don’t use this component for complete sentences or longer content.
+Captions are primarily used in [data visualizations](/design/data-visualizations). Stick to a few words and don’t use this component for complete sentences or longer content.
 
 <!-- usagelist -->
 
@@ -44,7 +44,6 @@ Captions are primarily used in [data visualizations](/visuals/data-visualization
 
 - Use caption for labelling data visualizations
   ![Diagram of using captions to label graphs and other data content](typography/display-styles/do-use-caption-for-labeling-data-visualizations.png)
-
 - Received April 21, 2017
 
 #### Don’t
@@ -53,6 +52,8 @@ Captions are primarily used in [data visualizations](/visuals/data-visualization
 - This is your recent activity
 
 <!-- end -->
+
+---
 
 ## Examples
 

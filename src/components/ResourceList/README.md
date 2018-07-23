@@ -1540,7 +1540,7 @@ In the CSS itself, we’re going to start mobile first. We’ll open up the CSS 
 }
 ```
 
-Note that we’ve annotated the colors here to show that they correspond to the [Polaris color palette](https://polaris.shopify.com/visuals/colors#section-color-palette).
+Note that we’ve annotated the colors here to show that they correspond to the [Polaris color palette](https://polaris.shopify.com/design/colors#section-color-palette).
 
 Now that we have our small screen layout, we can layer on the layouts for medium and wide screens. This requires some additional wrappers. With this extra markup, it’s a good time to split out some of this out to clean up the code:
 
@@ -2358,8 +2358,8 @@ Based on merchant research and following the best practices and content guidelin
 | Money spent            | is greater than | _TextField_                                                                              |
 | Number of orders       | is greater than | _TextField_                                                                              |
 | Order date             | is              | In the last week<br/>In the last month<br/>In the last three months<br/>In the last year |
-| Is an email subscriber |                 | Yes<br/>No                                                                               |
-| Tagged with            |                 | _Textfield_                                                                              |
+| Is an email subscriber | &nbsp;          | Yes<br/>No                                                                               |
+| Tagged with            | &nbsp;          | _Textfield_                                                                              |
 | Located in             | country         | _Textfield_                                                                              |
 
 <a name="study-filtering-building"></a>

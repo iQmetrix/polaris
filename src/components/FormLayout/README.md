@@ -61,11 +61,11 @@ Section titles should be:
 
 #### Do
 
-Business details
+- Business details
 
 #### Don’t
 
-Enter details about your business
+- Enter details about your business
 
 <!-- end -->
 
@@ -81,11 +81,11 @@ A label is a short description of a field. Labels are not help text, and they sh
 
 #### Do
 
-Email address
+- Email address
 
 #### Don’t
 
-What is your email address?
+- What is your email address?
 
 <!-- end -->
 
@@ -93,11 +93,11 @@ What is your email address?
 
 #### Do
 
-Phone number
+- Phone number
 
 #### Don’t
 
-My phone number is:
+- My phone number is:
 
 <!-- end -->
 
@@ -113,8 +113,8 @@ Use to stack form fields vertically, which makes them easier to scan and complet
 
 ```jsx
 <FormLayout>
-  <TextField label="Store name" />
-  <TextField type="email" label="Account email" />
+  <TextField label="Store name" onChange={() => {}} />
+  <TextField type="email" label="Account email" onChange={() => {}} />
 </FormLayout>
 ```
 
@@ -129,8 +129,8 @@ Field groups will wrap automatically on smaller screens.
 ```jsx
 <FormLayout>
   <FormLayout.Group>
-    <TextField type="number" label="Minimum order" />
-    <TextField type="number" label="Maximum order" />
+    <TextField type="number" label="Minimum order" onChange={() => {}} />
+    <TextField type="number" label="Maximum order" onChange={() => {}} />
   </FormLayout.Group>
 </FormLayout>
 ```
@@ -142,10 +142,10 @@ For very short inputs, the width of the inputs may be reduced in order to fit mo
 ```jsx
 <FormLayout>
   <FormLayout.Group condensed>
-    <TextField label="Length" />
-    <TextField label="Width" />
-    <TextField label="Height" />
-    <TextField label="Unit" />
+    <TextField label="Length" onChange={() => {}} />
+    <TextField label="Width" onChange={() => {}} />
+    <TextField label="Height" onChange={() => {}} />
+    <TextField label="Unit" onChange={() => {}} />
   </FormLayout.Group>
 </FormLayout>
 ```
